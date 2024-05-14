@@ -20,7 +20,7 @@ if __name__ == '__main__':
     pd.set_option('display.max_rows', 5000)
     pd.set_option('display.max_columns', 50)
 
-    df = pd.read_csv('/home/gil/PycharmProjects/physical_activity_prediction/dataset/dataset2.csv')
+    df = pd.read_csv('/home/shay/PycharmProjects/physical_activity_prediction/dataset/dataset2.csv')
     print(f'columns are: {df.columns}')
 
     res = pd.unique(df['activityID'])
